@@ -60,9 +60,10 @@ achieved by AutoSet and Blink.
 Code Overview
 ===============
 
-Blink is written as a C# userspace code. It runs as a single thread and timeouts to switch
-among mobility detection mode, channel probe mode and transmission mode. loss_fast_probe.dat
-and rssi_fast_probe.dat contain the trained link metrics used in classification.
+Blink is written as a C# userspace code. Its implementation can be found in ReaderLibrary/ directory.
+It runs as a single thread and timeouts to switch among mobility detection mode, 
+channel probe mode and transmission mode. loss_fast_probe.dat and rssi_fast_probe.dat contain 
+the trained link metrics used in classification.
 
 The details of the functions in each mode are shown below:
 
@@ -86,3 +87,7 @@ Mobile Sensor Inventory
 
 RateAdaptation_FastMovingTag(): bit-rate selection for mobile sensor. A new bit-rate is selected every 5s.
 FastMovingTag_MobilityCheck(): check whether mobile sensor becomes stationary sensor.
+
+Questions?
+==================
+Pengyu Zhang (pyzhang@cs.umass.edu)
