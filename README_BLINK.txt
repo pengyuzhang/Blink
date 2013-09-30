@@ -1,4 +1,4 @@
-What is BLINK ?
+What is Blink?
 ===============
 
 BLINK is a link layer protocol designed for a single hop backscatter sensor networks.
