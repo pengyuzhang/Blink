@@ -2,9 +2,11 @@ What is Blink?
 ==============
 
 Blink is a link layer protocol designed for a single hop backscatter sensor networks.
-Blink is 1) fast, because it reduces channel probe time by exploiting sharp channel transition,
-2) accurate, because its classifier follows optimal bitrate closely,
-and 3) simple, because it obviates frequent channel probe by exploiting sensor mobility patterns.
+Blink is
+
+1. fast, because it reduces channel probe time by exploiting sharp channel transition.
+2. accurate, because its classifier follows optimal bitrate closely.
+3. simple, because it obviates frequent channel probe by exploiting sensor mobility patterns.
 
 For more in-depth information please look at the included copy of our MobiSys 2012 paper on Blink.
 
