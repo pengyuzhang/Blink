@@ -14,9 +14,12 @@ For more in-depth information please look at the included copy of our MobiSys 20
 Blink's Design
 ==============
 
-Blink consists of four main components: 1) backscatter sensor mobility detector,
-2) channel prober to estimate link quality, 3) bit rate selection module,
-and 4) channel selection module.
+Blink consists of four main components:
+
+1. backscatter sensor mobility detector.
+2. channel prober to estimate link quality.
+3. bit rate selection module.
+4. channel selection module.
 
 Please have a look at the section 4 of the enclosed paper for the details on each of these components.
 
