@@ -92,6 +92,6 @@ Mobile Sensor Inventory
 * ``FastMovingTag_MobilityCheck()``: check whether mobile sensor becomes stationary sensor.
 
 Questions?
-==================
+==========
 
 Pengyu Zhang (pyzhang@cs.umass.edu)
