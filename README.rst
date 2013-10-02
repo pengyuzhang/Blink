@@ -67,23 +67,23 @@ The details of the functions in each mode are shown below:
 Sensor mobility detection when Blink boots
 ------------------------------------------
 
-* ProbeMobilityPatterns(): record the link signatures in the first sensor scan
-* RecordMobilityPatterns(): record the link signatures in the second sensor scan
-* CheckTagMobility(): identify stationary or mobile sensors
+* ``ProbeMobilityPatterns()``: record the link signatures in the first sensor scan
+* ``RecordMobilityPatterns()``: record the link signatures in the second sensor scan
+* ``CheckTagMobility()``: identify stationary or mobile sensors
 
 Static Sensor Inventory
 -----------------------
 
-* RateAdaptation_SlowMovingTag(): bit-rate selection for stationary sensor. If sensor is still in the same
+* ``RateAdaptation_SlowMovingTag()``: bit-rate selection for stationary sensor. If sensor is still in the same
   location, bit-rate does not change.
-* SlowMovingTag(): stationary sensor inventory.
-* SlowMovingTag_MobilityCheck(): check whether stationary sensor becomes mobile sensor.
+* ``SlowMovingTag()``: stationary sensor inventory.
+* ``SlowMovingTag_MobilityCheck()``: check whether stationary sensor becomes mobile sensor.
 
 Mobile Sensor Inventory
 -----------------------
 
-* RateAdaptation_FastMovingTag(): bit-rate selection for mobile sensor. A new bit-rate is selected every 5s.
-* FastMovingTag_MobilityCheck(): check whether mobile sensor becomes stationary sensor.
+* ``RateAdaptation_FastMovingTag()``: bit-rate selection for mobile sensor. A new bit-rate is selected every 5s.
+* ``FastMovingTag_MobilityCheck()``: check whether mobile sensor becomes stationary sensor.
 
 Questions?
 ==================
