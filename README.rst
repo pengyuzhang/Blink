@@ -38,7 +38,7 @@ Microsoft Visual Studio 2008 or higher.
 
 A ethernet router.
    A ethernet router is needed to connect Impinj Speedway RFID reader to your computer.
-   The default reader connection IP is 10.0.0.200. You need to change this configuration
+   The default reader connection IP is ``10.0.0.200``. You need to change this configuration
    based on the DHCP of your ethernet router.
 
 
@@ -92,4 +92,5 @@ Mobile Sensor Inventory
 
 Questions?
 ==================
+
 Pengyu Zhang (pyzhang@cs.umass.edu)
